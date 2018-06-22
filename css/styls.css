@@ -15,4 +15,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
+}
+#lh {
+  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/lunch.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
