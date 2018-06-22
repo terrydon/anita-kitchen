@@ -10,3 +10,9 @@
 #pt {
   background-color: #F15A29;
 }
+#bf {
+  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/breakfast.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
