@@ -1,0 +1,9 @@
+#background-image{
+  background-image: url("../images/backgrounds/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container-fluid{
+  text-align: center;
+}
