@@ -44,4 +44,8 @@ height: 100px;
 }
 #foot {
   background-color: #F15A29;
+  text-align: center;
+}
+#menu {
+  text-align: center;
 }
