@@ -41,6 +41,7 @@ height: 100px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 400px;
 }
 #foot {
   background-color: #F15A29;
@@ -55,4 +56,9 @@ height: 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 200px;
+
+}
+#tabs {
+  height: 200px;
 }

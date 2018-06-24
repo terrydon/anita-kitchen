@@ -83,14 +83,11 @@
   <div class="row">
     <div class="col-md-12" id="bg">
     <ul class="nav nav-tabs">
-      <li class="active"><a href="#">fastfood</a></li>
-
-      <li><a href="#">Drinks</a></li>
-      <li><a href="#">chicken</a></li>
-      <li><a href="#">rice</a></li>
+      <li><a href="#" class="nav-link active">fastfood</a></li>
+      <li><a href="#" class="nav-link">Drinks</a></li>
+      <li><a href="#" class="nav-link">chicken</a></li>
+      <li><a href="#" class="nav-link">rice</a></li>
     </ul>
-  </div>
-  <div class ="row">
     <img src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
     <img src="images/fastfood/beefBurger.jpg" alt="Beef Burger">
     <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
@@ -122,7 +119,12 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12" id="email">
-           <p> Get our daily food items delivered to your email</p>
+           <p id="Get"> Get our daily food items delivered to your email</p>
+           <div class="form-inline">
+           <form name="subform"></form>
+           <input type="text" name="txt"><br>
+           <input type="button" name="buttonsubcribe" value="subscribe" onclick="(buttonsubcribe.value)">
+         </div>
          </div>
          </div>
 </div>
