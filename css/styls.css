@@ -48,4 +48,11 @@ height: 100px;
 }
 #menu {
   text-align: center;
+
+}
+#email {
+  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/backgrounds/subscribe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
