@@ -9,6 +9,8 @@
 #pt {
   background-color: #F15A29;
   height: 100px;
+  text-align: center;
+  padding-top: 2.5%;
 }
 #bf {
   background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/breakfast.jpg");
@@ -16,19 +18,26 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 5%;
 }
 #lh {
   background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/lunch.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5%;
+  text-align: center;
 }
 #dn{
   background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/dinner2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 5%;
+  text-align: center;
+}
+#drinks {
+  text-align: right;
 }
 #head {
 height: 200px;
@@ -61,4 +70,10 @@ height: 100px;
 }
 #tabs {
   height: 200px;
+}
+#imgs {
+  padding-top: 5%;
+}
+#con4 {
+  margin-top: 10%;
 }
