@@ -5,14 +5,16 @@
     <title>anita's kitchen</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styls.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 
   </head>
   <body>
+  <div class="container">
     <div class="container-fluid" id="con1">
-<div class="row">
+<div class="row" id="logo">
   <div class="col-md-12" id="background-image">
     <img src="images/logoBig.png">
-    <p>We Provide The Best Food At The Right Price.</p>
+    <p id="p1">We Provide The Best Food<br> At The <em><strong>Right Price.</strong></em></p>
   </div>
 </div>
   </div>
@@ -43,8 +45,10 @@
 <div class="container" id="con3">
 <div class="row">
 <div class="col-md-6">
+  <div class="container" id="ff">
   <img src="images/fastFood1.jpg">
   <img src="images/fastFood2.jpg">
+</div>
 </div>
 <div class="col-md-6">
   <h1>Fast Food</h1>
@@ -56,6 +60,7 @@
     voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
     Excepteur sint occaecat cupidatat non proident,<br>
     sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+     <button id="button1">View Gallery</button>
   </div>
   </div>
 
@@ -72,16 +77,18 @@
         voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
         Excepteur sint occaecat cupidatat non proident,<br>
         sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+         <button id="button2">View Gallery</button>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" id="drk">
         <img src="images/drink1.jpg">
         <img src="images/drink2.jpg">
       </div>
       </div>
       </div>
-<div class="container" id="con5">
+<div class="container-fluid" id="con5">
+  <div class="container" id="whole">
   <div class="row">
-    <div class="col-md-12" id="bg">
+    <div class="col-md-12">
     <ul class="nav nav-tabs">
       <li><a href="#" class="nav-link active">fastfood</a></li>
       <li><a href="#" class="nav-link">Drinks</a></li>
@@ -98,18 +105,22 @@
   <div class="col-md-4">
     <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
   </div>
+</div>
   </div>
   </div>
   </div>
 </div>
 <div class="container" id="con6">
+  <div class="jumbotron">
   <div class="row">
+
     <div class="col-md-6">
-      <div class="well">
+
      <h4>Our Happy Customers</h4>
      <p><em>George Richard</em></p>
      <p>Great food! Menu is awesome, there foods are not only great but<br>
        also in the right price. i will highly recommend them:)</p>
+       <div id="customer">
        <img src="images/customers/p1.png">
        <img src="images/customers/p2.png">
        <img src="images/customers/p3.png">
@@ -124,14 +135,19 @@
          </div>
          </div>
          </div>
+         </div>
 <div class="container-fluid" id="con7">
   <div class="row">
     <div class="col-md-12" id="email">
-           <p id="Get"> Get our daily food items delivered to your email</p>
+      <div id="get">
+           <p> <em><strong>Get our daily food items delivered to your email</strong></em></p>
+         </get>
            <div class="form-inline">
-           <form name="subform"></form>
-           <input type="text" name="txt"><br>
-           <input type="button" name="buttonsubcribe" value="subscribe" onclick="(buttonsubcribe.value)">
+           <form name="subform">
+             <input type="text" placeholder="Your email">
+           <button id="button">Subscribe</button>
+         </form>
+
          </div>
          </div>
          </div>
@@ -141,15 +157,18 @@
     <div class="col-md-12" id="foot">
            <img src="images/footerlogos/logo_white.png">
            <h1 id="menu">MENU</h1>
-              <p>Thats What We Are</p>
+              <p id="ftmenu">Thats What We Are</p>
+              <div id="ftimg">
               <img src="images/footerlogos/facebook.png">
               <img src="images/footerlogos/pinterest.png">
               <img src="images/footerlogos/twitter.png">
-              <p>2016 Menu Resturant</p>
+            </div>
+              <p id="ftmenu2">2016 Menu Resturant</p>
             </div>
             </div>
 </div>
-
-
+<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</div>
   </body>
 </html>
