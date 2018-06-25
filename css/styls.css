@@ -21,7 +21,7 @@ body {
   background-color: white;
 }
 #bf {
-  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/breakfast.jpg");
+  background-image: url("../images/foodtop/breakfast.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,7 +30,7 @@ body {
   color: white;
 }
 #lh {
-  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/lunch.jpg");
+  background-image: url("../images/foodtop/lunch.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +39,7 @@ body {
   color: white;
 }
 #dn{
-  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/foodtop/dinner.jpg");
+  background-image: url("../images/foodtop/dinner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -85,7 +85,7 @@ height: 100px;
   color: #F15A29;
 }
 #email {
-  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/backgrounds/subscribe.jpg");
+  background-image: url("../images/backgrounds/subscribe.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,7 +106,7 @@ height: 100px;
   margin-top: 7%;
 }
 #con5 {
-  background-image: url("/home/terrydon/terrydon/my-moringa-school-projects/anita-kitchen/images/backgrounds/foodsBg.jpg");
+  background-image: url("../images/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -174,5 +174,5 @@ form {
 }
 #con8 {
   background-color: #F15A29;
-  
+
 }
